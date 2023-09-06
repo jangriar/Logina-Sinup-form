@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: radial-gradient(#c39c10, transparent);
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgb(7, 7, 7);
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    width: 100px;
+    margin-top: 30px;
+}
+.text{
+    color: rgb(160, 229, 226);
+    font-size: 40px;
+    font-family: 700;
+}
+
+.underline{
+    width: 100px;
+    height: 10px;
+    background: #f3be0e;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.input{
+display: flex;
+align-items: center;
+margin: auto;
+width: 480px;
+height: 80px;
+background: white;
+border-radius: 6px;
+
+}
+.input img{
+    margin : 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot-password{
+padding-left: 62px;
+margin-top: 27px;
+color: #797979;
+font-size: 16px;
+
+}
+
+.forgot-password span{
+    color: #3c009d;
+    cursor: pointer;
+
+}
+.submit-container{
+
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    color: white;
+    background:#f5a40e;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background:#EAEAEA;
+    color : #050505fb;
+}
